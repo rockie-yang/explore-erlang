@@ -3,3 +3,6 @@
 [Composite Types](c3_CompositeTypes.md)
 [Pattern Match](c4_PatternMatch.md)
 [Function And Module](c5_FunctionAndModule.erl)
+[The case construct](c6_case.erl)
+[The if construct](c7_if.erl)
+[Variable Scope](c8_VariableScope.erl)
