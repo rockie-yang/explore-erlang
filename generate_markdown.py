@@ -5,7 +5,7 @@ import os
 source_file_extension = ".erl"
 code_segment_prefix = '```erlang'
 code_segment_suffix = '```'
-comment_start = '%'
+comment_start = '%%'
 
 def get_markdown_files(summary_file):
     pattern = re.compile('.*?\((\S+)\)')
