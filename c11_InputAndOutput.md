@@ -49,3 +49,15 @@ T6=io:read("then? ")            % if we type "{2,3,tue}." then enter
 ```
 
 ## Output
+
+io:write is used to write a item to output.
+
+```erlang
+R=io:write({hello, world}).     % It will print {hello, world}), R will be ok
+
+R2=io:write(Hello).             % It will raise exception "variable 'Hello' is unbound"
+                                % R2 will be continue unbounded
+
+```
+
+io:format/2 is print using formatting string.
