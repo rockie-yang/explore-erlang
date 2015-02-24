@@ -15,12 +15,14 @@ def get_markdown_files(summary_file):
             m = pattern.match(line)
 
             if m:
-                filename = m.group(1)
-                if filename.endswith(source_file_extension):
-                    if not os.path.exists(filename.replace('.md', source_file_extension)):
-                        raise FileNotFoundError(filename)
+                md_filename = m.group(1)
+                source_file_name = md_filename.replace('.md', source_file_extension)
+                if os.path.exists(source_file_name):
+                    yield md_filename
+                elif not os.path.exists(md_filename):
+                    raise FileNotFoundError(md_filename)
 
-                    yield filename
+
 
 
 

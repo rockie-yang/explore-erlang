@@ -6,3 +6,7 @@
 * [The case construct](c6_case.md)
 * [The if construct](c7_if.md)
 * [Variable Scope](c8_VariableScope.md)
+* [Built-in Functions](c9_BuiltinFunctions.md)
+* [Meta Programming](c10_MetaProgramming.md)
+* [Input and Output](c11_InputAndOutput.md)
+* [Recursion](c12_Recursion.md)

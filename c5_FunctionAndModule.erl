@@ -7,7 +7,7 @@
 %% We can also define varias of attribute like author
 %% in the begin of the file.
 -module(c5_FunctionAndModule).
--author("Rockie Yang").
+
 
 %% All exported functions can be used out side of the module.
 %% Un-exported functions can be only used inside of the module.
