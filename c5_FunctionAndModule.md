@@ -8,7 +8,7 @@ We can also define varias of attribute like author
 in the begin of the file.
 ```erlang
 -module(c5_FunctionAndModule).
--author("Rockie Yang").
+
 
 ```
 

@@ -13,7 +13,7 @@
 sum([]) -> 0;
 sum([Head | Tail]) -> Head + sum(Tail).
 
-%% Notice in the sum function the resursive expression is
+%% Notice in the sum function the recursive expression is
 %% ```erlang
 %% Head + sum(Tail).
 %% ```

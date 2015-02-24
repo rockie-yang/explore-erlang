@@ -7,7 +7,7 @@ code_segment_prefix = '```erlang'
 code_segment_suffix = '```'
 comment_start = '%%'
 
-def get_markdown_files(summary_file):
+def get_source_files(summary_file):
     pattern = re.compile('.*?\((\S+)\)')
 
     with open(summary_file) as f:
@@ -18,15 +18,15 @@ def get_markdown_files(summary_file):
                 md_filename = m.group(1)
                 source_file_name = md_filename.replace('.md', source_file_extension)
                 if os.path.exists(source_file_name):
-                    yield md_filename
-                elif not os.path.exists(md_filename):
-                    raise FileNotFoundError(md_filename)
+                    yield source_file_name
+                # elif not os.path.exists(md_filename):
+                #     raise FileNotFoundError(md_filename)
 
 
 
 
-
-for source_file_name in list(get_markdown_files('./SUMMARY.md')):
+source_files = list(get_source_files('./SUMMARY.md'))
+for source_file_name in source_files:
     md_file_name = source_file_name.replace(source_file_extension, '.md')
 
     new_line = '\n'

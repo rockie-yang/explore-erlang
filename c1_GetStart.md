@@ -31,3 +31,20 @@ c(module_name)  # compile a module. module_name should not have extension
 cd(directory)   # the same with cd command in shell
 
 ```
+
+## Special Characteristic of Erlang
+
+Erlang is fairly special compare to main stream programming languages like C/C++/Java/Python.
+
+Erlang is also fairly different with Scala which is a new functional programming language.
+
+* Don't provide some tradition imperative constructions : like if, loop is not provided in Erlang.
+  Even there is if keyword, provide with similar function.
+* Philosophy of handle error is different : Let is crash philosophy is fairly special.
+  There are some similarities with Scala's Reactive programming philosophy
+  which is handle positive case a failed case in different path.
+* Everything is immutable: Most stuff in imperative languages are mutable
+  with some exception like str/tuple in python; String in Java.
+  Scala provide both immutable and mutable with compromization.
+* Message as main way to interact with different modules:
+  Akka is implement very similar functions which could be used by JVM languages.

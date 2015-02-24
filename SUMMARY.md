@@ -10,3 +10,4 @@
 * [Meta Programming](c10_MetaProgramming.md)
 * [Input and Output](c11_InputAndOutput.md)
 * [Recursion](c12_Recursion.md)
+* [Errors](c13_Errors.md)
