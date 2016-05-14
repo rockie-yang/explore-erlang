@@ -1,10 +1,10 @@
 # Introduction
 
-This is a place which I save my learning and studying result for Erlang.
+This is a place which I save my explorelation result for Erlang.
 
 It is intended to be simple, understandable and reusable.
 
-Original data are stored in [github](https://github.com/rockie-yang/erlang-code-snippets).
+Original data are stored in [github](https://github.com/rockiey/explore-erlang).
 It contains:
 * Direct markdown file. For only concept or mostly need be experienced in Erlang Shell.
 * Graphs. To illustrate some concept.
@@ -13,6 +13,6 @@ It contains:
 * Others. To help to edit or store the content.
 
 
-It is published on [gitbook](http://rockie-yang.gitbooks.io/erlang-code-snippets/).
+It is published on [gitbook](http://rockiey.gitbooks.io/explore-erlang/).
 
   
