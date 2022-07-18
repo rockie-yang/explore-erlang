@@ -12,6 +12,7 @@ It contains:
 * generate_markdown.py. To generate markdown file from Erlang source file
 * Others. To help to edit or store the content.
 
+$a*b$
 
 It is published on [gitbook](http://rockiey.gitbooks.io/explore-erlang/).
 
